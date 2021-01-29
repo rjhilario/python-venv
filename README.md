@@ -22,7 +22,7 @@ Usage:
 `cd /tmp`<br/>
 `wget https://www.python.org/ftp/python/3.7.9/Python-3.7.9.tgz`
 
-2. Unpack the that .tgz <br/>
+2. Unpack the that <br/>
 `tar -xzvf Python-3.7.9.tgz`
 
 3. Change directory to extracted archive <br/>
