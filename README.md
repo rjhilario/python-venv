@@ -19,7 +19,8 @@ https://docs.python.org/3/library/venv.html
 
 Usage:
 1. Get the compressed archive file:
-'cd /tmp'
+---
+cd /tmp
 'wget https://www.python.org/ftp/python/3.7.9/Python-3.7.9.tgz'
 
 2. Unpack the that .tgz 
