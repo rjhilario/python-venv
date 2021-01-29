@@ -22,12 +22,14 @@ Usage:
 `cd /tmp`<br/>
 `wget https://www.python.org/ftp/python/3.7.9/Python-3.7.9.tgz`
 
-2. Unpack the that .tgz 
-tar -xzvf Python-3.7.9.tgz
+2. Unpack the that .tgz <br/>
+`tar -xzvf Python-3.7.9.tgz`
 
-3. Change directory to extracted one
-cd Python-3.7.9
+3. Change directory to extracted archive <br/>
+`cd Python-3.7.9`
 
-4. Install dependencies need to compile the package
-apt update
-apt install -y 
+4. Install dependencies need to compile the package <br/>
+`apt update'<br/>
+`apt install -y build-essential openssl libssl-dev zlib1g-dev libffi-dev freetds-dev libbz2-dev libsqlite3-dev
+
+5. 
