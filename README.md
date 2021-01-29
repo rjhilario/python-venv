@@ -29,7 +29,25 @@ Usage:
 `cd Python-3.7.9`
 
 4. Install dependencies need to compile the package <br/>
-`apt update'<br/>
-`apt install -y build-essential openssl libssl-dev zlib1g-dev libffi-dev freetds-dev libbz2-dev libsqlite3-dev
+`apt update`<br/>
+`apt install -y build-essential openssl libssl-dev zlib1g-dev libffi-dev freetds-dev libbz2-dev libsqlite3-dev`
 
-5. 
+5. Compile with the recommended parameters below <br/>
+`./configure --enable-optimizations --enable-loadable-sqlite-extensions && make altinstall`
+
+6. Upgrade pip <br/>
+`/usr/local/bin/python3.7 -m pip install --upgrade pip`
+
+7. At this point you can initiate the virtual environment
+
+```
+python3.7 -m venv .venv37
+source .venv37/bin/activate
+python3 -m pip install --upgrade pip
+python -V
+pip -V
+```
+
+Please see sample requirements.txt file. It really depends on your project 
+as to whatever package for pip you need. You need to install them so you
+can properly run python codes.
