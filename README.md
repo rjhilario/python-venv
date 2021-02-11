@@ -30,7 +30,7 @@ Usage:
 
 4. Install dependencies need to compile the package <br/>
 `apt update`<br/>
-`apt install -y build-essential openssl libssl-dev zlib1g-dev libffi-dev freetds-dev libbz2-dev libsqlite3-dev`
+`apt install -y build-essential openssl libssl-dev zlib1g-dev libffi-dev freetds-dev libbz2-dev libsqlite3-dev unixodbc-dev`
 
 5. Compile with the recommended parameters below <br/>
 `./configure --enable-optimizations --enable-loadable-sqlite-extensions && make altinstall`
