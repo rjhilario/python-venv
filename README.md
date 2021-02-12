@@ -50,8 +50,8 @@ pip -V
 
 Please see sample requirements.txt file. It really depends on your project 
 as to whatever package for pip you need. You need to install them so you
-can properly run python codes.
+can properly run python codes/scripts.
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 This would largely depend on what kind of project you are working on.
